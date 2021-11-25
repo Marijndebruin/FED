@@ -19,7 +19,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 Marijn de Bruin
 
 #### Je startniveau:
-Rood
+Blauw / Rood
 
 #### Je focus:
 Responsive
@@ -77,8 +77,9 @@ hier de naam van de pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+Ik ben begonnen aan de website, Ik vond het moeilijker dan gedacht.
+Ik was vergeten dat semantische HTML in hield dat je geen div's of id en classes kan gebruiken.
+Hierdoor moet ik nieuwe aanpassingen maken, aangezien ik teveel div's heb op dit moment
 
 ### Agenda voor meeting
 samen met je groepje opstellen
