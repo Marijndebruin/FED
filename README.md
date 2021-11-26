@@ -100,7 +100,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 - Een section mag wel een class hebben.
 
  ### Mijn huidige progres
- <img src="verslag/helegoedehtml.png" width="375px" alt="niet semantische HTML voor de meeting">
+ <img src="verslag/goedeHTML.png" width="375px" alt="niet semantische HTML voor de meeting">
 
 </details>
 
