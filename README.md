@@ -84,20 +84,23 @@ Hierdoor moet ik nieuwe aanpassingen maken, aangezien ik teveel div's heb op dit
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Hoe kan je het beste font responsive maken
+Hoe maak je een responsive navigatie, zijn het 2 verschillende navigaties die je laat zien en weg haalt op bepaalde breedte?
+
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Ik heb geleerd hoe je het beste font resposive kan maken. Er waren verschillende manieren. Maar ik ga : font-size: clamp(1em, 4vw, 3em); gebruiken.
+- Ik heb geleerd dat ik geen semantische HTML heb en hoe ik dit beter kan doen
+- Ik heb geleerd over accesability 
+- Ik heb geleerd dat een responsive navigatie zich aanpast op scherm grote en niet dat je 2 navigaties hebt.
+- Geen font iconen :(
+- Een section mag wel een class hebben.
+
+ ### Mijn huidige progres
+ <img src="verslag/helegoedehtml.png" width="375px" alt="niet semantische HTML voor de meeting">
 
 </details>
 
