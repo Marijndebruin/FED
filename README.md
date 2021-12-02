@@ -100,7 +100,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 - Een section mag wel een class hebben.
 
  ### Mijn huidige progres
- <img src="verslag/helegoedehtml.png" width="375px" alt="niet semantische HTML voor de meeting">
+ <img src="verslag/goedeHTML.png" width="375px" alt="niet semantische HTML voor de meeting">
 
 </details>
 
@@ -114,19 +114,19 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+Ik heb deze week semantishe HTML gemaakt, en bekeken wat daar onder valt.
+Dit is voor mij vrij moeilijk omdat ik het mijzelf zo heb aangeleerd.
+ 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
+Vragen:
+- Waarom is er semantische HTML, wat is het nut van NTH-of-type ipv iets een class of ID geven.
+- Zijn er sommige onderdelen waar je wel een class mag gebruiken?
+- Hoe doe je NTH-of-type als je een 2e pagina hebt?
+- Nog steeds moeite met een hamburger menu (aangezien menu content veranderd op discord.com)
+ 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
