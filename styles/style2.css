@@ -1,0 +1,139 @@
+/* CSS Document */
+:root {
+    --blauw: #5865f2;
+    --grijs: #2c2f33;
+    --lichtGrijs: #99aab5;
+    --nietEchtZwart: #23272a;
+  }
+  
+*, *::after, *::before {
+    box-sizing:border-box;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #404eed;
+  
+}
+
+nav{
+    position: relative;
+    top: 2em;
+    left: 2em;
+    width: 20em;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;
+  }
+
+nav ul li{
+      font-size: 1.2em;
+      color: #fff;
+  }
+
+nav ul img{
+  width: 124px;
+}
+
+article {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top: 5em;
+      left: 2em;
+      right: 2em;
+      width: 20em;
+      margin-bottom: 150px;
+}
+
+article h1{
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 1000;
+    line-height: 1em;
+    text-transform: uppercase;
+    text-align: left;
+}
+article p{
+    position: relative;
+    top: 2em;
+    font-size: 0.95em;
+    color: #fff;
+    text-align: left;
+    line-height: 1.7em;
+    margin-bottom: 2em;
+}
+
+article a:nth-of-type(1){
+    position: relative;
+    top: 2em;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 16px 32px;
+    color: var(--nietEchtZwart);
+    background-color: #fff;
+    border-radius: 28px;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+article a:nth-of-type(2){
+    position: relative;
+    top: 2em;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 16px 32px;
+    background-color: var(--nietEchtZwart);
+    color: #fff;
+    border-radius: 28px;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+header section img:nth-of-type(1){
+    position: relative;
+    max-width: 880px;
+    width: 100%;
+    margin-left: -80px;
+}
+
+main {
+  background-color: #fff;
+  display: flex;
+}
+
+main section:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 5em;
+  left: 2em;
+  right: 2em;
+  width: 20em;
+  margin-bottom: 150px; 
+}
+
+main section img:nth-of-type(1) {
+  position: relative;
+  max-width: 880px;
+  width: 100%;
+}
+
+main section p{
+  position: relative;
+  top: 2em;
+  font-size: 0.95em;
+  text-align: left;
+  line-height: 1.7em;
+  margin-bottom: 2em;
+}
