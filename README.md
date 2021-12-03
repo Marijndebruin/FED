@@ -130,10 +130,10 @@ Vragen:
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- HTML en CSS zien er beter uit.
+- Denk goed na over de structuur van je CSS bekijk de slides
+- Maak comments in je html en css
+- Kijk naar je sections en articles die in elkaar zitten in de main
 
 </details>
 
