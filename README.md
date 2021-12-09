@@ -184,19 +184,17 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+Ik heb weer hard gewerkt aan de website en heb veel aanpassingen gemaakt.
+Ik heb deze 'versie' veel gewerkt aan het zorgen dat het responsive is.
 
-### Agenda voor meeting
-samen met je groepje opstellen
+Ik heb de homepage bijna af en heb hierdoor dan een 'template' waardoor ik gemakkelijker de 2e pagina kan maken.
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
+Ik heb een aantal vragen die ik moet uitzoeken.
+ - Mag je 2 stylesheets maken? een voor elke pagina?
+ - Mag je 0.0% classes of divs gebruiken? Soms loop ik tegen wat aan wat volgens mij niet anders kan dan.
+ - Ik heb nog steeds moeite met de menu.
+ 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
