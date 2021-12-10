@@ -198,10 +198,7 @@ Ik heb een aantal vragen die ik moet uitzoeken.
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Grids minder articles.
 
 </details>
 
