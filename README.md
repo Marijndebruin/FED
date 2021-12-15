@@ -152,7 +152,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 Lijst met je bevindingen die in de test naar voren kwamen:
 - toesenbord: doormiddel van tab kan iemand door de website gaan. Er waren een aantal onderdelen die linkjes moesten zijn maar dit niet waren.
 - Paringson: De Discord huisstijl heeft grote ronden knoppen die er duidelijk uitzien en groot zijn. Hierdoor moet het makkelijker zijn voor de gebruiker.
--Zichtsbeperking: De site is goed leesbaar met zichbeperking
+- Zichtsbeperking: De site is goed leesbaar met zichbeperking
 
 
 #### Toetsenbord
@@ -221,6 +221,10 @@ Wat heb ik allemaal geleerd?
 - @media querry's
 - gradients
 - background: url(image) (dat je er ook meerdere kan doen in een tag)
+
+Ik vond het een leuk vak en leuk project, het enige wat ik niet leuk vond is semantisch html. Ik vind het jammer dat je 0% divs of classes mag gebruiken.
+Ik had sneller het eind resultaat bereikt als ik af en toe een class mocht gebruiken. Ik ben heel veel tijd kwijt geraakt met het zoeken naar de juiste selector zonder dat de rest word geselecteerd. De selectors vond ik heel frustreerend. 
+Ik ben wel heel blij met het eind resultaat en heb heel veel geleerd. Ondanks dat ik niet bij de fysieke lessen kon zijn ivm corona en chronisch ziek zijn, heb ik een mooi resultaat neer gezet en heb ik veel geleerd van de feedback gespreken.
 
 ### Eind resultaat
 
