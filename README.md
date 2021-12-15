@@ -220,9 +220,6 @@ Wat heb ik allemaal geleerd?
 - Clamp();
 - @media querry's
 - gradients
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
 - background: url(image) (dat je er ook meerdere kan doen in een tag)
 
 ### Eind resultaat
@@ -232,14 +229,6 @@ Screenshot van de home page
 
 Screenshot van de nitro page
  <img src="verslag/Marijn-website-nitro.png" width="375px" alt="AEind resultaat afbeelding van de nitro page">
-=======
->>>>>>> Stashed changes
-
-### Screenshot(s)
-
-hier screenshot(s) van je eindresultaat
-
->>>>>>> f2e706fb24fa45df77f8bf39282dc3d0eb0af2a7
 </details>
 
 
@@ -262,12 +251,6 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 7. W3Schools video html tag: https://www.w3schools.com/html/html5_video.asp
 8. W3Schools form: https://www.w3schools.com/html/html_forms.asp
 9. Semantische HTML uitleg: https://www.modernways.be/myap/it/page/programming/html/Semantische%20HTML.html
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
 10. Discord website voor alle kleuren, fotos, en andere huisstijlen https://discord.com/ en https://discord.com/nitro
-=======
->>>>>>> f2e706fb24fa45df77f8bf39282dc3d0eb0af2a7
->>>>>>> Stashed changes
 
 </details>
