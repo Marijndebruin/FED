@@ -199,6 +199,7 @@ Ik heb een aantal vragen die ik moet uitzoeken.
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
 - Grids minder articles.
+- Je mag 3 stylesheets maken, niet 2. 1 voor elke pagina en 1 voor de main style van de website.
 
 </details>
 
@@ -212,7 +213,21 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb de website af gekregen, en ben heel erg trots en blij met het resultaat. Ik heb heel veel geleerd van deze opdracht.
+Ik vond het heel erg moeilijk om semantisch HTML te maken, en geen classes te gebruiken. Ik heb 0 classes of IDs gebruikt, het maakte het niet gemakkelijk.
+Het heeft veel tijd gekost om de juiste selectors te gebruiken en tegerlijkertijd niet andere onderdelen aan te passen. Dit heeft veel tijd en energie gekost.
+Maar naar mate ik verder kwam begon ik meer te leren over hoe je bepaalde onderdelen kan selecteren.
+
+Ik heb in totaal 2 pagina's gemaakt die volledige responive zijn. Ik heb een werkend responive menu waar ik heel blij mee ben.
+
+Wat heb ik allemaal geleerd?
+- Semantische HTML
+- CSS selectoren
+- Flexbox
+- Grid
+- Clamp();
+- @media querry's
+- gradients
 
 ### Screenshot(s)
 
@@ -231,8 +246,14 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. CSS-Tricks Grid informatie: https://css-tricks.com/snippets/css/complete-guide-grid/
+2. CSS-Tricks Flexbox informatie: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+3. W3Schools selectors: https://www.w3schools.com/cssref/css_selectors.asp
+4. Menu inklapbaar: https://codepen.io/shooft/pen/gOxVGVB
+5. Sanne Hamburger naar kruisje: https://codepen.io/shooft/pen/bGoNMpP
+6. Sanne Layout combi met grid en flex: https://codepen.io/shooft/pen/QWqKNYe
+7. W3Schools video html tag: https://www.w3schools.com/html/html5_video.asp
+8. W3Schools form: https://www.w3schools.com/html/html_forms.asp
+9. Semantische HTML uitleg: https://www.modernways.be/myap/it/page/programming/html/Semantische%20HTML.html
 
 </details>
