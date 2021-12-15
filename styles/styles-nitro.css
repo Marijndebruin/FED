@@ -1,0 +1,333 @@
+:root {
+    --blauw: #5865f2;
+    --grijs: #2c2f33;
+    --lichtGrijs: #99aab5;
+    --nietEchtZwart: #23272a;
+    --wit: #fff;
+    --lichtblauw: #404eed;
+    --nitrogradient: linear-gradient(90deg,#b473f5,#e292aa);
+    --merkblauw: #7289da;
+  }
+  
+*, *::after, *::before {
+    box-sizing:border-box;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--wit);
+}
+/* Header styling */
+
+header {
+    background: var(--nitrogradient);
+    position: relative;
+    top: -75px;
+    height: 750px;
+    width: 100%;
+    z-index: 10;
+}
+
+header section {
+    color: var(--wit);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    position: relative;
+    top: 15em;
+    padding-right: 50%;
+    margin-left: 15%;
+    z-index: 10;
+}
+
+header section:nth-child(3){
+    text-align: center;
+    display: flex;
+    gap: 2em;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    top: 2em;
+    padding-right: 0;
+    margin-left: 0;
+  }
+
+header > section img:first-child {
+    width: 400px;
+    margin-left: 0;
+    margin-right: auto;
+    padding-bottom: 1em;
+}
+
+header > section > img:last-child {
+    z-index: 0;
+    width: 250px;
+    transform:translatex(-500%);
+}
+
+header a {
+    max-width: clamp(300px,60vw,800px);
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 16px 32px;
+    background-color: var(--nietEchtZwart);
+    color: var(--wit);
+    border-radius: 28px;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+a span {
+    background-color: var(--blauw);
+    border-radius: 100px;
+    padding: 0 8px;
+    font-size: 0.8em;
+    margin-left: 10px;
+    line-height: 24px;
+}
+
+video {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Header repsonive styling, hier veranderd hij voor kleinere schermen. Video gaat weg en layout veranderd */
+@media screen and (max-width: 1200px) {
+video{
+    display: none;
+}
+
+header {
+    background: var(--nitrogradient);
+    position: relative;
+    top: -75px;
+    height: 900px;
+    width: 100%;
+    z-index: 10;
+}
+
+header > section {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 0;
+    gap: 2em;
+    padding-top: 5em;
+}
+header > section img:first-child {
+    margin-right: 0;
+    align-self: center;
+    width: 300px;
+    z-index: 100;
+}
+
+header > section > img:last-child {
+    z-index: 0;
+    position: absolute;
+    width: 250px;
+    transform: translatex(0%);
+    left: 55%;
+    top: -10%;
+}
+
+header section:nth-child(3) {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0;
+}
+}
+
+
+/* MAIN onderdeel van de pagina.*/
+main{
+    position: relative;
+    z-index: 10;
+    background-color: var(--wit);
+    padding-left: 15%;
+    padding-right: 15%;
+}
+/* Voordelen title voor h1 en p */
+main > section:first-child{
+    display: flex;
+    flex-direction: column;
+    padding-top: 4em;
+    gap: 2em;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+main section:nth-child(1) h1{
+    color: var(--nietEchtZwart);
+}
+
+/* voordelen blok */
+main > section:first-child + section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 4em;
+    gap: 1em;
+    justify-content: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Voordelen contant blok  */
+
+main section:nth-child(2) section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 4em;
+    gap: 2em;
+    border-radius: 8px;
+    padding: 32px;
+    flex: 0 0 25%;
+}
+
+main p {
+    font-size: 1em;
+}
+
+main section:nth-child(2) section img {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Dit zijn alle kleuren van de 6 blokjes */
+main section:nth-child(2) section:nth-child(1){
+    background: linear-gradient(142.53deg,#00a295,#26e8f4 98.75%),#3dcda7;
+}
+
+section:nth-child(2) section:nth-child(2){
+    background: linear-gradient(321.82deg,#21f2ff,#4181ff 59.22%,#4475ff 98.02%),#7196ff;
+}
+
+main section:nth-child(2) section:nth-child(3){
+    background: linear-gradient(138.46deg,#3e70ff 1.48%,#9a98ff 98.75%),#ff73fa;
+}
+
+section:nth-child(2) section:nth-child(4){
+    background: linear-gradient(141.85deg,#7e7bff,#ff73fa);
+}
+
+section:nth-child(2) section:nth-child(5){
+    background: linear-gradient(141.48deg,#f837ee 1.35%,#ffcd4b);
+}
+
+section:nth-child(2) section:nth-child(6){
+    background: linear-gradient(321.73deg,#ffcd4b -1.09%,#ee6315 100.65%);
+}
+
+
+/* Main voordelen DOE HET button blok */
+main > section:nth-child(3){
+    padding-top: 120px;
+    text-align: center;
+}
+
+main > section:nth-child(3) section{
+    padding-top: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+}
+/* Buttons gaan onder elkaar om ruimte te maken */
+@media screen and (max-width: 780px) {
+    main > section:nth-child(3) section{
+    flex-direction: column;
+    align-items: center;
+}
+}
+main > section:nth-child(3) section a {
+    max-width: clamp(300px,60vw,800px);
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 16px 32px;
+    background-color: var(--nietEchtZwart);
+    color: var(--wit);
+    border-radius: 28px;
+    font-size: 1.2em;
+    text-decoration: none;    
+}
+
+/* Nitro Classic blok */
+main > section:nth-child(4) {
+    background-color: var(--merkblauw);
+    width: 100vw;
+    position: relative;
+    left: 0px;
+    margin-top: 5em;
+    margin-left: -15vw;
+}
+
+main > section:nth-child(4) > section:nth-of-type(1) {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap:1em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+/* Discord Nitro Classic logo img boven aan */
+main > section:nth-child(4) > section:nth-of-type(1) img:nth-of-type(1) {
+    order: -1;
+    margin: 0;
+}
+
+/* Img Discord nitro classic in grid links en 4 rows */
+main > section:nth-child(4) > section:nth-of-type(1) img:nth-of-type(2) {
+    grid-column-start:1;
+    grid-row-start:1;
+    grid-row-end:5;
+    padding-top: 3em;
+    width: 200px;
+    margin-left: 25%;
+}
+
+/* Buttons nitro classic */
+main > section:nth-child(4) > section:nth-of-type(1) a {
+    max-width: clamp(300px,60vw,800px);
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 16px 32px;
+    background-color: var(--nietEchtZwart);
+    color: var(--wit);
+    border-radius: 28px;
+    font-size: 1.2em;
+    text-decoration: none;
+    max-width: fit-content;
+}
+
+@media screen and (max-width: 780px) {
+    main > section:nth-child(4) > section:nth-of-type(1){
+        display: flex;
+        flex-direction: column;
+    }
+    main > section:nth-child(4) > section:nth-of-type(1) img:nth-of-type(1) {
+        width: 200px;
+    }
+    main > section:nth-child(4) > section:nth-of-type(1) img:nth-of-type(2){
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

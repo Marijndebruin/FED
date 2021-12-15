@@ -41,11 +41,11 @@ www.discord.com
  
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
-<img src="images/Screenshot%201.jpg" width="375px" alt="Home pagina van discord">
+<img src="verslag/Discord-home.jpg" width="375px" alt="Home pagina van discord">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/Screenshot%202.jpg" width="375px" alt="Nitro pagina van discord">
+<img src="verslag/Discord-nitro.jpg" width="375px" alt="Nitro pagina van discord">
  
 </details>
 
@@ -56,14 +56,14 @@ hier de naam van de pagina
 <details>
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
-### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+### de hele home pagina: 
+<img src="verslag/Breakdown-discord-home-large.png" width="375px" alt="breakdown van de hele pagina full width pagina home">
 
-### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+### de hele Nitro pagina: 
+<img src="verslag/Breakdown-discord-nitro-large.png" width="375px" alt="breakdown van de hele pagina full width pagina nitro">
 
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+### Breakdown van small devices home en nitro pagina: 
+<img src="images/Breakdown-discord-small" width="375px" alt="breakdown van small screen devices home en nitro pagina">
 
 </details>
 
@@ -135,9 +135,11 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 - Maak comments in je html en css
 - Kijk naar je sections en articles die in elkaar zitten in de main
 
+
+ ### Aanpassing
+ Ik heb hier de article uit de section gehaald omdat deze niet nodig was. Daarnaast is een article daarvoor gebruiken niet semantisch.
+ <img src="verslag/HTML-articles-section.png" width="375px" alt="Aanpassing in section">
 </details>
-
-
 
 
 
@@ -148,29 +150,19 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
-
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+- toesenbord: doormiddel van tab kan iemand door de website gaan. Er waren een aantal onderdelen die linkjes moesten zijn maar dit niet waren.
+- Paringson: De Discord huisstijl heeft grote ronden knoppen die er duidelijk uitzien en groot zijn. Hierdoor moet het makkelijker zijn voor de gebruiker.
+-Zichtsbeperking: De site is goed leesbaar met zichbeperking
 
 
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Toetsenbord
+De tab toets kan na wat aanpassingen aan linkjes nu alle linkjes af gaan zonder problemen.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Parkingson
+Doordat de website grote buttons heeft die duidelijk opvallen en groot zijn is het makkelijker voor gebruikers die een motorische handicap hebben.
 
-
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Zichtsbeperking
+Doordat een groot deel van de website op een witte achtergrond zit en de tekst zwart is is het goed leesbaar. Daarnaast word er altijd gebruik gemaakt van hoog kleur contrast waardoor de leesbaarheid verbeterd.
 
 </details>
 
@@ -228,11 +220,26 @@ Wat heb ik allemaal geleerd?
 - Clamp();
 - @media querry's
 - gradients
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+- background: url(image) (dat je er ook meerdere kan doen in een tag)
+
+### Eind resultaat
+
+Screenshot van de home page
+ <img src="verslag/Marijn-website-home.png" width="375px" alt="Eind resultaat afbeelding van de home page">
+
+Screenshot van de nitro page
+ <img src="verslag/Marijn-website-nitro.png" width="375px" alt="AEind resultaat afbeelding van de nitro page">
+=======
+>>>>>>> Stashed changes
 
 ### Screenshot(s)
 
 hier screenshot(s) van je eindresultaat
 
+>>>>>>> f2e706fb24fa45df77f8bf39282dc3d0eb0af2a7
 </details>
 
 
@@ -255,5 +262,12 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 7. W3Schools video html tag: https://www.w3schools.com/html/html5_video.asp
 8. W3Schools form: https://www.w3schools.com/html/html_forms.asp
 9. Semantische HTML uitleg: https://www.modernways.be/myap/it/page/programming/html/Semantische%20HTML.html
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+10. Discord website voor alle kleuren, fotos, en andere huisstijlen https://discord.com/ en https://discord.com/nitro
+=======
+>>>>>>> f2e706fb24fa45df77f8bf39282dc3d0eb0af2a7
+>>>>>>> Stashed changes
 
 </details>

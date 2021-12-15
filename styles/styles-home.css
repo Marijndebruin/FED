@@ -1,0 +1,284 @@
+/* CSS Document */
+/* Dit is het CSS document voor de home pagina. */
+:root {
+    --blauw: #5865f2;
+    --grijs: #2c2f33;
+    --lichtGrijs: #99aab5;
+    --nietEchtZwart: #23272a;
+    --wit: #fff;
+    --lichtblauw: #404eed;
+  }
+  
+*, *::after, *::before {
+    box-sizing:border-box;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--lichtblauw);
+}
+/* Header groot scherm */
+/* H1 en sub tekst */
+
+header {
+  background: url(hero-illustratie-links.svg) -250px 450px no-repeat,
+  url(hero-illustratie-rechts.svg) bottom right no-repeat,
+ url(hero-illustratie-background.svg) bottom no-repeat;
+  height: 800px;
+}
+
+header section{
+  color: var(--wit); 
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 10em;
+}
+
+/* Button in header */
+header section section {
+  text-align: center;
+  display: flex;
+  gap: 2em;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  top: 2em;
+}
+
+Header section img {
+  position: relative;
+  z-index: 0;
+  margin-left: -80px;
+  width: 100%;
+  overflow: hidden;  
+}
+
+Header h1{ 
+  font-weight: 1000;
+  font-size: clamp(1.5em,8vw,4em);
+  text-transform: uppercase;
+  line-height: 95%;
+  max-width: clamp(300px,60vw,800px);
+}
+
+Header p {
+  max-width: clamp(300px,60vw,800px);
+}
+
+header a {
+  max-width: clamp(300px,60vw,800px);
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 16px 32px;
+  background-color: var(--nietEchtZwart);
+  color: var(--wit);
+  border-radius: 28px;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+header a:nth-child(odd) {
+  max-width: clamp(300px,60vw,800px);
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 16px 32px;
+  background-color: var(--wit);
+  color: var(--nietEchtZwart);
+  border-radius: 28px;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+@media screen and (max-width: 700px) {
+header {
+  background: url(hero-illustratie-links.svg) -100px 580px no-repeat;
+  background-size: 450px;
+  height: 800px;
+}
+
+header section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 5em;
+  left: 1em;
+  right: 1em;
+  width: 20em;
+  margin-bottom: 150px;
+}
+
+Header h1{
+    font-size: 1.7em;
+    color: var(--wit);
+    font-weight: 1000;
+    line-height: 1em;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+header section p{
+    position: relative;
+    top: 2em;
+    font-size: 0.95em;
+    color: var(--wit);
+    text-align: left;
+    line-height: 1.7em;
+    margin-bottom: 2em;
+}
+
+/* Button in header */
+header section section {
+  text-align: center;
+  display: flex;
+  gap: 2em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 2em;
+}
+
+header a {
+  max-width: clamp(300px,60vw,800px);
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 16px 32px;
+  background-color: var(--nietEchtZwart);
+  color: var(--wit);
+  border-radius: 28px;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+header a:nth-child(odd) {
+  max-width: clamp(300px,60vw,800px);
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 16px 32px;
+  background-color: var(--wit);
+  color: var(--nietEchtZwart);
+  border-radius: 28px;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+header section img:nth-of-type(1){
+    position: relative;
+    max-width: 880px;
+    width: 100%;
+    margin-left: -80px;
+}
+}
+
+
+/* MAIN onderdeel Groot breed scherm*/
+main {
+  background-color: var(--wit);
+  display: flex;
+  flex-direction: column;
+}
+
+main section img {
+  width: clamp(10em, 50vw, 100em);
+  max-width: 900px;
+  grid-column-start:1;
+  grid-row-start:1;
+  grid-row-end:3;
+}
+
+main section {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:1em;
+  justify-content: center;
+  position: relative;
+  top: 5em;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 150px; 
+}
+
+Main Article {
+  display: grid;
+  grid-template-columns: auto auto;
+  max-width: 35em;
+  gap: 2em;
+}
+
+article a {
+  position: relative;
+  top: 2em;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 16px 32px;
+  background-color: var(--blauw);
+  color: var(--wit);
+  border-radius: 28px;
+  font-size: 1.2em;
+  text-decoration: none;
+  margin-bottom: 1em;
+}
+
+main section:nth-child(5){
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  text-align: center;
+}
+
+main section:nth-child(5) a{
+  position: relative;
+  top: 2em;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 16px 32px;
+  background-color: var(--blauw);
+  color: var(--wit);
+  border-radius: 28px;
+  font-size: 1.2em;
+  text-decoration: none;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* MAIN onderdeel voor max 375px breed*/
+@media screen and (max-width: 700px) {
+main {
+  background-color: var(--wit);
+  display: flex;
+  flex-direction: column;
+}
+
+main section img {
+  width: clamp(300px, 90vw, 500px);
+  max-width: 500px;
+  order: -1;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 5em;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 150px; 
+}
+
+Main Article {
+  display: flex;
+  flex-direction: column;
+  max-width: 35em;
+  gap: 2em;
+}
+
+}

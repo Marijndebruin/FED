@@ -14,11 +14,8 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-
 }
 
-nav {
-}
 
 .navi {
   display: flex;
@@ -73,8 +70,6 @@ nav {
 
 .herocontainer{
   width: 75%;
-}
-.herotext {
 }
 
 .herotext h1{

@@ -1,0 +1,368 @@
+/* MAIN CSS document */
+/* Hier staan de vaste CSS onderdelen die op alle paginas het zelfde zijn 
+Zoals de h1 p etc...*/
+/* Ook zit hier de footer in omdat die op elke pagina het zelfde is. */
+:root {
+    --blauw: #5865f2;
+    --grijs: #2c2f33;
+    --lichtGrijs: #99aab5;
+    --nietEchtZwart: #23272a;
+    --wit: #fff;
+    --lichtblauw: #404eed;
+  }
+  
+*, *::after, *::before {
+    box-sizing:border-box;
+    padding: 0px;
+    margin: 0px;
+}
+a:link {
+  text-decoration: none;
+}
+
+h1 {
+    font-size: clamp(1.5em,8vw,3em);
+    color: var(--wit);
+    font-weight: 1000;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: clamp(1.5em,2vw,3em);
+    display: grid;
+    align-items: end;
+} 
+
+h3 {
+    font-size: 1.25em;
+    font-weight: 100;
+    text-align: center;
+}
+
+
+h4 {
+    font-size: 1.25em;
+}
+p {
+    font-size: clamp(1em,2vw,20px);
+    line-height: 1.5;
+}
+
+
+@media screen and (max-width: 700px) {
+
+h2{
+      font-size: clamp(1.5em,2vw,3em);
+} 
+      
+p{
+    font-size: clamp(1em,2vw,20px);
+    line-height: 1.5;
+}
+}
+/* Navigatie onderdeel */
+
+/* Nav Groot scherm */
+nav{
+  position: relative;
+  top: 2em;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15%;
+  padding-right: 15%;
+  align-items: center;
+  z-index: 1000;
+}
+
+nav section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  list-style: none;
+  margin-left: 2em;
+  margin-right: 2em;
+  align-items: center;
+  gap: 50px;
+}
+
+nav ul li{
+  font-size: 1em;
+  color: var(--wit);
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+li:hover{
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+nav img{
+    width: 124px;
+    align-self: center;
+}
+
+nav section a {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 16px;
+    background-color: var(--wit);
+    color: var(--nietEchtZwart);
+    border-radius: 28px;
+    font-size: 0.8em;
+    text-decoration: none;
+    font-weight: 600;  
+    align-self: center; 
+}
+button{
+    display: none;
+}
+
+@media screen and (max-width: 1300px) {
+    /* Button hamburger naar kruisje */
+    button{
+        display: block;
+        position:relative;
+        z-index:100;
+	
+        width:4em;
+        height:4em;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        border: none;
+        background-color: transparent;
+      }
+
+      button span {
+        display:block;
+        width:70%;
+        height:5px;
+        background-color: var(--wit);
+        
+        position:absolute;
+        transition:.3s;
+    }
+    
+    button span:nth-of-type(1) {
+        transform:translatey(-10px);
+    }
+    
+    button span:nth-of-type(3) {
+        transform:translatey(10px);
+    }
+    
+    nav.menuOpen button span {
+        background-color: var(--nietEchtZwart);
+    }
+    
+    nav.menuOpen button span:nth-of-type(1) {
+        transform:rotate(45deg);
+        height: 2px;
+        width: 40%;
+    }
+    
+    nav.menuOpen button span:nth-of-type(2) {
+        opacity:0;
+    }
+    
+    nav.menuOpen button span:nth-of-type(3) {
+        transform:rotate(-45deg);
+        height: 2px;
+        width: 40%;
+    }
+
+    nav{
+        position: relative;
+        top: 2em;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 5%;
+        padding-right: 5%;
+        align-items: center;
+        z-index: 1000;
+      }
+      nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: baseline;
+        gap: 1.2em;
+        text-align: left;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        margin: 0;
+        padding: 7em 2em 0;
+        transition: .3s;
+        transform: translatex(100%);
+        background: url(discord-logo-zwart.svg) 32px 50px no-repeat;
+        background-color: var(--wit);
+        list-style: none;
+        width: 350px;
+        transform: translateX(100%);
+        right: 0;
+        background-size: 124px;
+    }
+
+        ul.toonMenu {
+        transform:translatex(0%);
+        right: 0;
+    }
+    nav ul li{
+        font-size: 1em;
+        color: var(--nietEchtZwart);
+        font-weight: 100;
+        transition: 0.5s;
+    }
+    nav ul li:hover{
+        font-size: 1em;
+        color: var(--nietEchtZwart);
+        font-weight: 100;
+        transition: 0.5s;
+        text-decoration: underline;
+      }
+    }
+
+/* Footer onderdeel */
+
+footer {
+    background-color: var(--nietEchtZwart);
+    color: var(--wit);
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 7em;
+    position: relative;
+  }
+  
+  footer  h2 {
+    text-align: center;
+    color: var(--blauw);
+    font-weight: 1000;
+    text-transform: uppercase;
+    font-size: 1.5em;
+  }
+
+  /* Footer taal deel */
+  footer > section:nth-of-type(1) > section:nth-of-type(1){
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 250px;
+    gap: 2em;
+  }
+  /* De taal dropdown stijling */
+  select {
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+  }
+
+  /* Footer social section om de iconen uit te lijnen */
+  footer > section:nth-of-type(1) section > section {
+    display: flex;
+    flex-direction: row;
+    justify-content: none;
+    gap: 1em;
+    align-items: center;
+  }
+  /* Social iconen styling */
+  footer > section:nth-of-type(1) section > section img{
+    width: 24px;
+  }
+  /* Footer section die alles netjes neer zet */
+  footer > section:nth-of-type(1){
+    padding-top: 5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  /* Footer menu styling */
+  footer > section:nth-of-type(1) > section {
+    display: flex;
+    flex-direction: row;
+    gap: clamp(1em, 5em, 7em);
+  }
+
+  /* Onderste deel footer, logo en download knop section */
+  footer > section:nth-child(2){
+    top: 3.5em;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid var(--lichtblauw);
+    padding-top: 2em;
+  }
+  
+  /* Menu items elke blokje is een article */
+  footer section article {
+    width: 10em;
+    padding-top: 2em;
+  }
+  
+  
+  footer section article h3 {
+    color: var(--blauw);
+    padding-top: 0.8em;
+    text-align: left;
+  }
+  
+  footer section article li {
+    padding-top: 0.7em;
+    font-size: 1em;
+    list-style: none;
+  }
+  
+  footer img {
+    max-width: 125px;
+  }
+  
+  /* Onderste a in de footer (download) knop */
+  footer > section:last-child a {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 7px 16px;
+  background-color: var(--lichtblauw);
+  color: var(--wit);
+  border-radius: 28px;
+  font-size: 0.8em;
+  text-decoration: none;
+  margin-bottom: 1em;
+  
+  }
+  /* Responsive menu layout veranderd van flexbox naar een grid om beter te positioneren */
+  @media screen and (max-width: 1350px) {
+    footer > section:nth-of-type(1) > section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: 100%;
+      column-gap: 5em;
+      row-gap: 0.5em;
+    }
+  }
+/* Responsive menu layout veranderd van flexbox naar een grid om beter te positioneren */
+  @media screen and (max-width: 450px) {
+    footer > section:nth-of-type(1) > section {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      column-gap: 5em;
+      row-gap: 0.5em;
+    }
+  }
