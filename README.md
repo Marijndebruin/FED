@@ -156,13 +156,25 @@ Lijst met je bevindingen die in de test naar voren kwamen:
 
 
 #### Toetsenbord
-De tab toets kan na wat aanpassingen aan linkjes nu alle linkjes af gaan zonder problemen.
+De tab toets kan na wat aanpassingen aan linkjes nu alle linkjes af gaan zonder problemen. Daarnaast heb ik een voor alle linkjes een :focus style gemaakt. Hierdoor is het gemakkelijker voor de gebruiker om door de website heen te gaan. Ook heb ik rekening gehouden met dat de linkjes niet met kleur veranderen zodat mensen met kleurblindheid dit ook kunnen gebruiken. Ik heb gebruik gemaakt van bijvoorbeeld grote font-size en borders.
+ 
+Voorbeeld
+ header a:focus{
+  padding: 20px 36px;
+  font-size: 1.5em;
+  transition: 0.2s;
+}
+ <img src="verslag/zonder-focus.png" width="375px" alt="voor de aanpassingen">
+ <img src="verslag/met-focus.png" width="375px" alt="na de aanpassingen">
 
 #### Parkingson
 Doordat de website grote buttons heeft die duidelijk opvallen en groot zijn is het makkelijker voor gebruikers die een motorische handicap hebben.
 
 #### Zichtsbeperking
 Doordat een groot deel van de website op een witte achtergrond zit en de tekst zwart is is het goed leesbaar. Daarnaast word er altijd gebruik gemaakt van hoog kleur contrast waardoor de leesbaarheid verbeterd.
+ 
+#### Screenreader
+Ik de de website door gebruikt met een screenreader
 
 </details>
 
