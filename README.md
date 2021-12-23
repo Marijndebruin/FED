@@ -150,9 +150,11 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
-- toesenbord: doormiddel van tab kan iemand door de website gaan. Er waren een aantal onderdelen die linkjes moesten zijn maar dit niet waren.
+- toesenbord: doormiddel van tab kan iemand door de website gaan. Er waren een aantal onderdelen die linkjes moesten zijn maar dit niet waren. Ook maakte ik geen gebruik van de :focus tag waardoor het niet zichtbaar was welk onderdeel je selecteerde.
 - Paringson: De Discord huisstijl heeft grote ronden knoppen die er duidelijk uitzien en groot zijn. Hierdoor moet het makkelijker zijn voor de gebruiker.
 - Zichtsbeperking: De site is goed leesbaar met zichbeperking
+- Concentratie problemen: De site heeft geen grote tekst vlakken waardoor de gebruiker misschien ontmoedigraakt om te lezen of zich niet kan concentreren.
+- Screenreader: De screenreader kon niet overall komen doordat het geen goede linkjes waren. Ook kon de screenreader niet over het hamburger menu.
 
 
 #### Toetsenbord
@@ -169,12 +171,16 @@ Voorbeeld
 
 #### Parkingson
 Doordat de website grote buttons heeft die duidelijk opvallen en groot zijn is het makkelijker voor gebruikers die een motorische handicap hebben.
-
+ 
+####Concentratieproblemen
+De website heeft een goede layout en de content is in kleine stukjes verdeeld zodat de gebruiker niet overspoeld wordt met grote lappen tekst die ervoor kunnen zorgen dat de gebruiker zich niet kan concentreren. De content op de home pagina zijn telkens verdeeld, met: een afbeelding ter ondersteuning, 1 kop en twee regels tekst. Op de Nitro pagina is dit het zelfde, kleine blokjes met een afbeelding, tekst en een kopje.
+ 
 #### Zichtsbeperking
 Doordat een groot deel van de website op een witte achtergrond zit en de tekst zwart is is het goed leesbaar. Daarnaast word er altijd gebruik gemaakt van hoog kleur contrast waardoor de leesbaarheid verbeterd.
  
 #### Screenreader
-Ik de de website door gebruikt met een screenreader
+Ik de de website gebruikt met een screenreader, Nadat ik verschillende aanpassingen heb gedaan zodat de tab-toets werkt, ging de screenreader gemakkelijk door de website heen.
+Doordat ik in mijn footer en navigatie eerst geen linkjes gebruikte kon hij daar niet komen. Ook heb ik tijdens de feedback sesie geleerd over aria-label die ervoorzorgt dat je een onderdeel een naam kan geven als het uit de content niet duidelijk wordt. Dit heb ik gebruikt bij mijn responsive menu omdat er geen tekst is maar een hamburger menu kan de screen de aria-label voorlezen.
 
 </details>
 
@@ -268,5 +274,6 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 8. W3Schools form: https://www.w3schools.com/html/html_forms.asp
 9. Semantische HTML uitleg: https://www.modernways.be/myap/it/page/programming/html/Semantische%20HTML.html
 10. Discord website voor alle kleuren, fotos, en andere huisstijlen https://discord.com/ en https://discord.com/nitro
+11. Aria-label https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute
 
 </details>
