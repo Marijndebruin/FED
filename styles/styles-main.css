@@ -9,6 +9,8 @@ Zoals de h1 p etc...*/
     --nietEchtZwart: #23272a;
     --wit: #fff;
     --lichtblauw: #404eed;
+    --nitrogradient: linear-gradient(90deg,#b473f5,#e292aa);
+    --merkblauw: #7289da;
   }
   
 *, *::after, *::before {
@@ -26,12 +28,14 @@ h1 {
     font-weight: 1000;
     line-height: 1em;
     text-transform: uppercase;
+    font-family: Passion one;
 }
 
 h2 {
     font-size: clamp(1.5em,2vw,3em);
     display: grid;
     align-items: end;
+    font-family: Passion one;
 } 
 
 h3 {
@@ -94,21 +98,35 @@ nav ul{
   gap: 50px;
 }
 
-nav ul li{
+nav ul li a{
   font-size: 1em;
   color: var(--wit);
   font-weight: 600;
-  transition: 0.5s;
+  transition: 0.2s;
+  text-decoration: none;
+
 }
 
-li:hover{
+li a:hover{
   text-decoration: underline;
   transition: 0.5s;
 }
 
+/* Focus state voor de navigatie voor tab gebruikers */
+li a:focus {
+  border: 3px solid var(--wit);
+  border-radius: 10px;
+  font-size: 1.1em;
+  padding: 10px 5px;
+  transition: 0.2s;
+}
 nav img{
-    width: 124px;
-    align-self: center;
+  width: 124px;
+  align-self: center;
+}
+
+nav img:focus{
+  width: 134px;
 }
 
 nav section a {
@@ -121,8 +139,16 @@ nav section a {
     font-size: 0.8em;
     text-decoration: none;
     font-weight: 600;  
-    align-self: center; 
+    align-self: center;
+    transition: 0.2s;
 }
+
+nav section a:focus {
+  padding: 14px 20px;
+  transition: 0.2s;
+  font-size: 1em;
+}
+
 button{
     display: none;
 }
@@ -224,6 +250,15 @@ button{
         font-weight: 100;
         transition: 0.5s;
     }
+
+    nav ul li a{
+      font-size: 1em;
+      color: var(--nietEchtZwart);
+      font-weight: 600;
+      transition: 0.2s;
+      text-decoration: none;
+    
+    }
     nav ul li:hover{
         font-size: 1em;
         color: var(--nietEchtZwart);
@@ -284,6 +319,10 @@ footer {
   footer > section:nth-of-type(1) section > section img{
     width: 24px;
   }
+
+  footer > section:nth-of-type(1) section > section img:focus{
+    width: 28px;
+  }
   /* Footer section die alles netjes neer zet */
   footer > section:nth-of-type(1){
     padding-top: 5em;
@@ -323,12 +362,16 @@ footer {
     text-align: left;
   }
   
-  footer section article li {
+  footer section article li{
     padding-top: 0.7em;
-    font-size: 1em;
     list-style: none;
   }
-  
+
+  footer section article li a{
+    font-size: 1em;
+    color: var(--wit);
+  }
+
   footer img {
     max-width: 125px;
   }

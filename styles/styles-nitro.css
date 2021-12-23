@@ -1,20 +1,3 @@
-:root {
-    --blauw: #5865f2;
-    --grijs: #2c2f33;
-    --lichtGrijs: #99aab5;
-    --nietEchtZwart: #23272a;
-    --wit: #fff;
-    --lichtblauw: #404eed;
-    --nitrogradient: linear-gradient(90deg,#b473f5,#e292aa);
-    --merkblauw: #7289da;
-  }
-  
-*, *::after, *::before {
-    box-sizing:border-box;
-    padding: 0px;
-    margin: 0px;
-  }
-  
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--wit);
@@ -80,7 +63,14 @@ header a {
     border-radius: 28px;
     font-size: 1.2em;
     text-decoration: none;
+    transition: 0.2s;
 }
+
+header a:focus{
+    padding: 20px 36px;
+    font-size: 1.5em;
+    transition: 0.2s;
+  }
 
 a span {
     background-color: var(--blauw);
@@ -265,8 +255,15 @@ main > section:nth-child(3) section a {
     color: var(--wit);
     border-radius: 28px;
     font-size: 1.2em;
-    text-decoration: none;    
+    text-decoration: none;
+    transition: 0.2s;  
 }
+
+main > section:nth-child(3) section a:focus{
+    padding: 20px 36px;
+    font-size: 1.5em;
+    transition: 0.2s;
+  }
 
 /* Nitro Classic blok */
 main > section:nth-child(4) {
@@ -316,7 +313,14 @@ main > section:nth-child(4) > section:nth-of-type(1) a {
     font-size: 1.2em;
     text-decoration: none;
     max-width: fit-content;
+    transition: 0.2s;
 }
+
+main > section:nth-child(4) > section:nth-of-type(1) a:focus{
+    padding: 20px 36px;
+    font-size: 1.5em;
+    transition: 0.2s;
+  }  
 
 @media screen and (max-width: 780px) {
     main > section:nth-child(4) > section:nth-of-type(1){

@@ -1,20 +1,6 @@
 /* CSS Document */
 /* Dit is het CSS document voor de home pagina. */
-:root {
-    --blauw: #5865f2;
-    --grijs: #2c2f33;
-    --lichtGrijs: #99aab5;
-    --nietEchtZwart: #23272a;
-    --wit: #fff;
-    --lichtblauw: #404eed;
-  }
-  
-*, *::after, *::before {
-    box-sizing:border-box;
-    padding: 0px;
-    margin: 0px;
-  }
-  
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--lichtblauw);
@@ -65,6 +51,7 @@ Header h1{
   text-transform: uppercase;
   line-height: 95%;
   max-width: clamp(300px,60vw,800px);
+  font-family: Passion one;
 }
 
 Header p {
@@ -81,8 +68,15 @@ header a {
   color: var(--wit);
   border-radius: 28px;
   font-size: 1.2em;
-  text-decoration: none;
+  transition: 0.2s;
 }
+
+header a:focus{
+  padding: 20px 36px;
+  font-size: 1.5em;
+  transition: 0.2s;
+}
+
 
 header a:nth-child(odd) {
   max-width: clamp(300px,60vw,800px);
@@ -96,6 +90,13 @@ header a:nth-child(odd) {
   font-size: 1.2em;
   text-decoration: none;
 }
+
+header a:nth-child(odd):focus{
+  padding: 20px 36px;
+  font-size: 1.5em;
+  transition: 0.2s;
+}
+
 @media screen and (max-width: 700px) {
 header {
   background: url(hero-illustratie-links.svg) -100px 580px no-repeat;
@@ -154,7 +155,12 @@ header a {
   color: var(--wit);
   border-radius: 28px;
   font-size: 1.2em;
-  text-decoration: none;
+}
+
+header a:focus{
+  padding: 20px 36px;
+  font-size: 1.5em;
+  transition: 0.2s;
 }
 
 header a:nth-child(odd) {
@@ -168,6 +174,12 @@ header a:nth-child(odd) {
   border-radius: 28px;
   font-size: 1.2em;
   text-decoration: none;
+}
+
+header a:nth-child(odd):focus{
+  padding: 20px 36px;
+  font-size: 1.5em;
+  transition: 0.2s;
 }
 
 header section img:nth-of-type(1){
@@ -213,19 +225,6 @@ Main Article {
   gap: 2em;
 }
 
-article a {
-  position: relative;
-  top: 2em;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 16px 32px;
-  background-color: var(--blauw);
-  color: var(--wit);
-  border-radius: 28px;
-  font-size: 1.2em;
-  text-decoration: none;
-  margin-bottom: 1em;
-}
 
 main section:nth-child(5){
   display: flex;
@@ -248,6 +247,12 @@ main section:nth-child(5) a{
   margin-bottom: 1em;
   margin-left: auto;
   margin-right: auto;
+}
+
+main section:nth-child(5) a:focus {
+  padding: 20px 36px;
+  font-size: 1.5em;
+  transition: 0.2s;
 }
 
 /* MAIN onderdeel voor max 375px breed*/
